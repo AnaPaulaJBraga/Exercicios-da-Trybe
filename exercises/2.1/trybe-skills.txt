@@ -1,4 +1,6 @@
 - Unix
 - Bash
 - Git
+- html
+- css
 - soft skills

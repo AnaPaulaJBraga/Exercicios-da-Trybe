@@ -1,4 +1,0 @@
-O que vou aprender na Trybe:
-- unix
-- bash
-- git

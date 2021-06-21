@@ -1,0 +1,16 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    background-color: antiquewhite;
+}
+header{
+    background-color: coral;
+}
+nav{
+    display: inline-block;
+}
+img{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -35,5 +35,22 @@ if(num1 > num2 && num1 > num3) {
     console.log('maior numero é o: (num2)');
 }
 else{
-    console.log('maior numero é o:' + num3 + '(num3)');
+    console.log('maior numero é o:' + num3);
 }
+
+let num = 5;
+
+if (num > 0){
+    console.log('positive');
+}
+else if (num < 0){
+    console.log('negative');
+}
+else{
+    console.log('0')
+}
+
+
+let anguloA = 20;
+let anguloB = 70;
+let anguloC = 80;

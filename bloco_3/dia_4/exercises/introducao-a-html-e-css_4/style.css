@@ -5,14 +5,17 @@ body{
 }
 header{
     background-color: coral;
+    text-align: center;
 }
-
+article{
+    text-align: center;
+}
 img{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-#barra{
-    display: inline-block;
-
+footer{
+    margin-bottom: 10px;
+    text-align: center ;
 }

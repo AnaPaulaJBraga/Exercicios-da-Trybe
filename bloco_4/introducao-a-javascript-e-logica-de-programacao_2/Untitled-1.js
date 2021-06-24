@@ -48,4 +48,45 @@ console.log(higherNumber);
 
 //ex 6
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result = 0;
 
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 !== 0) {
+    result += 1;
+  }
+}
+if (result === 0) {
+    console.log ('nenhum valor ímpar encontrado')
+    
+} else {
+    console.log (result)
+    
+}
+
+//ex 7
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let lowerNumber = numbers [0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] < lowerNumber) {
+  
+        lowerNumber = numbers[index];
+    }    
+}
+console.log (lowerNumber);
+
+//ex 8
+
+let numbers = [];
+
+for (let index = 1; index <= 25; index += 1) {
+  numbers.push(index);
+}
+
+console.log(numbers);
+
+//ex 9
+for (let index = 0; index < numbers.length; index += 1) {
+    console.log (numbers[index] / 2 )
+    
+}

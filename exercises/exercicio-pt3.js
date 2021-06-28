@@ -1,18 +1,17 @@
 
-let a =  5;
-let b = 10;
-
-function sum(a, b) {
-    return a + b;
-    console.log(sum);
+function soma(a, b) {
+   return a + b;
   }
+console.log (soma (10, 5))
 
 
 
-let a = 10;
-let b = 5;
-let subtracao = a - b;
-console.log(subtracao);
+
+function subtracao(a, b) {
+   return a - b;
+}
+console.log(subtracao (10, 5));
+
 
 let multiplicacao = a * b;
 console.log(multiplicacao);

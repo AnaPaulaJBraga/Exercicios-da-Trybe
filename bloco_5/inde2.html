@@ -58,6 +58,72 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+    //1
+      let paiBody = document.querySelector('body');
+			let criaFilhoBody = document.createElement('h1');
+			criaFilhoBody.innerHTML = 'Exercício 5.2 - JavaScript DOM';
+			document.body.appendChild(criaFilhoBody);
+
+			//2
+			let criaTagDiv = document.createElement('div');
+			criaTagDiv.className = 'main-content';
+			document.body.appendChild(criaTagDiv);
+
+			//3 center-content
+			let criaOutraDiv = document.createElement('div');
+			criaOutraDiv.className = 'center-content';
+			criaTagDiv.appendChild(criaOutraDiv);
+
+			//4 p
+			let criaP = document.createElement("p");
+			criaP.innerHTML = 'algum texto';
+			criaOutraDiv.appendChild(criaP);
+
+			//5 left-content
+			let criaDiv5 = document.createElement('div');
+			criaDiv5.className = 'left-content';
+			criaTagDiv.appendChild(criaDiv5);
+
+			//6 right-content
+			let criaDiv6 = document.createElement('div');
+			criaDiv6.className = 'right-content';
+			criaTagDiv.appendChild(criaDiv6);
+
+			//7 small-image
+			let criaDiv7 = document.createElement('img');
+			criaDiv7.className = 'small-image';
+			criaDiv7.src = "https://picsum.photos/200";
+			criaDiv5.appendChild(criaDiv7);
+
+			//8 ul 1 a 10
+			let criaUl = document.createElement('ul');
+			criaDiv6.appendChild(criaUl);
+
+			let numeros = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+			for (let num in numeros){
+				let criaLi = document.createElement('li');
+				criaLi.innerHTML = numeros[num];
+				criaUl.appendChild(criaLi);
+			}
+
+			//9 h3
+			let criaH3 = document.createElement("h3");
+			for(let index = 0; index <3; index += 1){
+				criaH3.innerHTML = 'h3.' + index;
+				criaTagDiv.appendChild(criaH3);
+			}
+
+			//parte 2
+			//1 title
+			
+			
+
+		
+
+
+
+
+
     </script>
   </body>
 </html>

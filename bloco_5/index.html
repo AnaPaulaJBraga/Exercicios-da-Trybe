@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div id="paiDoPai">
+        <div id="pai">
+          <div id="primeiroFilho"></div>
+          <div id="elementoOndeVoceEsta">
+            <div id="primeiroFilhoDoFilho"></div>
+            <div id="segundoEUltimoFilhoDoFilho"></div>
+          </div>
+          Atenção!
+          <div id="terceiroFilho"></div>
+          <div id="quartoEUltimoFilho"></div>
+        </div>
+      </div>
+   <script>
+    //    //1
+    //    let elementoOndeVoceEsta =  document.getElementById('elementoOndeVoceEsta');
+    //    //2
+    //     let paiElementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta').parentElement;
+    //     paiElementoOndeVoceEsta.style.color = 'red';
+    //     //3
+    //     let primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+    //     primeiroFilhoDoFilho.innerText = 'texto novo';
+
+    //     //4
+    //     let primeiroFilho = pai.firstElementChild;
+    //     //5
+    //     let primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+    //     //6
+    //     let textoAtencao = document.getElementById('elementoOndeVoceesta').nextSibling;
+    //     //7
+    //     let terceiroFilho = document.getElementById ('elementoOndeVoceEsta'). nextElementSibling;
+    //     //8
+    //     let terceiroFilho2 = document.getElementById('pai').lastElementChild.previousElementSibling;
+
+
+        //parte 2
+        //1 irmao
+        let criaIrmao = document.createElement('div');
+        let pai = document.querySelector('#pai');
+        criaIrmao.id = 'irmaoElementoOndeEsta';
+        pai.appendChild(criaIrmao);
+        
+        //2 filho
+        let pai2 = document.querySelector('#elementoOndeVoceEsta');
+        let criaFilho = document.createElement('div');
+        criaFilho.id = 'filhoElementoOndeEsta';
+        pai2.appendChild(criaFilho);
+
+        //3 filho
+        let pai3 = document.querySelector('#primeiroFilhoDoFilho');
+        let criaFilho3 = documente.createElement('ul');
+        criaFilho3.id = "filhoPrimeiroFilhoDoFilho";
+        pai3.appendChild(criaFilho3);
+
+
+</script>
+
+    
+</body>
+
+</html>
+

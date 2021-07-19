@@ -17,7 +17,7 @@
 
 // //   for (chaves in info) {
 // //      console.log(info[chaves])
-          
+
 // //   }
 
 //   let info2= {
@@ -37,22 +37,22 @@
 //       } else{
 //         console.log(info[chaves] + ' e ' + info2[chaves]);
 //       }
-    
-         
+
+
 //  }
 
-function verificaPalindrome(word){
-    for(index in word){
-      if(word[index] != word[(word.length - 1) - index]){
-        return false;
-      }
+function verificaPalindrome(word) {
+  for (index in word) {
+    if (word[index] != word[(word.length - 1) - index]) {
+      return false;
     }
-    return true;
+  }
+  return true;
 }
-console.log(verificaPalindrome('Ana')); 
-console.log(verificaPalindrome('desenvolvimento')); 
+console.log(verificaPalindrome('Ana'));
+console.log(verificaPalindrome('desenvolvimento'));
 
 let numbers = [2, 3, 6, 7, 10, 1];
 for (indiceMaior in numbers) {
-    console.log (math)
+  console.log(math)
 }

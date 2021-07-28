@@ -1,19 +1,16 @@
 
 
-const wakeUp = () =>{
-    console.log("Acordando!")
-}
+const wakeUp = () =>"Acordando!";
 
-const breakfast = ()=> {
-    console.log('Bora tomar café!!')
-}
-const sleep = ()=> {
-    console.log('Partiu dormir!!')
-}
-const doingThings = (callback) =>{
+
+const breakfast = ()=> 'Bora tomar café!!';
+
+const sleep = ()=> 'Partiu dormir!!';
+
+const doingThings = (callback) => {
     const result = callback();
-    console.log(callback);
-}
+    console.log(result);
+  };
 
 doingThings(wakeUp);
 doingThings(breakfast);

@@ -1,1 +1,1 @@
-Exercícios realizados para aprendizado durante o curso na Trybe
+Exercícios realizados durante o modulo de fundamentos no curso na Trybe
